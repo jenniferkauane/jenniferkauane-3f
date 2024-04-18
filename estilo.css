@@ -12,3 +12,14 @@
     color: var(--branco);
     
 }
+
+span{
+    color: var(--verde);
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
