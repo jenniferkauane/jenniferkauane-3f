@@ -49,13 +49,13 @@ span{
      border-right: 2px solid var(--botao-ativo);
 }
 
-.ativo{
+.botao.ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
 }
 
 .botoes{
-    display: block;
+    display: flex;
 }
 
 .botao:first-child{
@@ -66,13 +66,15 @@ span{
     border-radius: 0 0 20px 20px;
 }
 .aba-conteudo{
-    background-color: var(--texto-fundo);
     display: none;
 }
-.aba-conteudo,.ativo{
-    display: flex;
-
+.aba-conteudo.ativo{
+    display: block;
 }
+.aba-textos{
+    background-color: var(--botao-inativo);
+}
+
 
 @media screen and (min-width: 700px){
     .botoes{
