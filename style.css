@@ -73,6 +73,17 @@ span{
 }
 .aba-textos{
     background-color: var(--botao-inativo);
+    padding: 40px;
+    border-radius: 15px;
+}
+.aba-coteudo-titulo-principal{
+    font-size: 28px;
+    text-align: center;   
+}
+.aba-conteudo-titulo-sencundario{
+    text-align: center;
+    color: var(--verde);
+    text-transform: uppercase;
 }
 
 
