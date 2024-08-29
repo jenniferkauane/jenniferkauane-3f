@@ -41,6 +41,7 @@ span{
 .contador-digito-numero{
     font-size: 80px;
     margin: 0;
+    padding: 0 10px;
 }
 .contador-digito-texto{
     color: var(--verde);
@@ -68,11 +69,11 @@ span{
      font-family: "Chakra Petch", sans-serif;
 }
 
-.abaconteudo{
+.aba-conteudo{
     display: none;
 }
 
-.abaconteudo.ativo{
+.aba-conteudo.ativo{
     display:block
 }
 
