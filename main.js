@@ -42,11 +42,12 @@ function calculaTempo(tempoObjetivo) {
 }
 
 function atualizaCronometro(){
-       document.getElementById('dia0').textContent = calculaTempo(tempos[0])[0]
-       document.getElementById('hora0').textContent = calculaTempo(tempos[0])[1]
-       document.getElementById('minuto0').textContent = calculaTempo(tempos[0])[2]
-       document.getElementById('segundo0').textContent = calculaTempo(tempos[0])[3]
+      
     for (let i=0; i<contadores.length;i++){
+        document.getElementById('dia'+i).textContent = calculaTempo(tempos[i])[0]
+        document.getElementById('hora'+i).textContent = calculaTempo(tempos[i])[1]
+        document.getElementById('minuto'+i).textContent = calculaTempo(tempos[i])[2]
+        document.getElementById('segundo'+i).textContent = calculaTempo(tempos[i])[3]
         //contadores[i].textContent = calculaTempo(tempos[i]);  
     }
 }
